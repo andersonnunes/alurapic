@@ -11,6 +11,8 @@ import { PainelModule } from './painel/painel.module';
 import { routing } from './app.routes';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
+import { BotaoModule } from './botao/botao.module';
+
 @NgModule({
   imports:      [ 
     BrowserModule, 
@@ -19,7 +21,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     FotoModule,
     routing,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    BotaoModule
   ],
   declarations: [ AppComponent, ListagemComponent, CadastroComponent ],
   bootstrap:    [ AppComponent ]
